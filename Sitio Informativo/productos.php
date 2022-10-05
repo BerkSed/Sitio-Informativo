@@ -36,9 +36,25 @@
 		</section>
 
 	</header>
+	<br>
+	<br>
+	<br><br><br><br><br><br><br><br><br><br>
 	<a href="suscripcion.php" class="btn-wsp" >
 	    <b>+</b>
 	</a>
+	<!-- Menú flotante -->
+    <div class="menu-content">
+        <span class="menu-item" id="menu">
+            <img src="svg/plus.svg" alt="Más" style="width: 40px; height: 40px;">
+        </span>
+        <a href="suscripcion.php"  style="width: 40px; height: 40px;" class="menu-item">
+            <img src="svg/facebook.svg" >
+        </a>
+       
+        <a href="baja.php"  style="width: 40px; height: 40px;" class="menu-item">
+            <img src="svg/youtube.svg" >
+        </a>
+    </div>
 	<section class="knowledge">
 		<div class="knowledge__container container">
 			<div class="knowledge__texts">
@@ -144,5 +160,7 @@
 		</footer>
 		<script src="js/particles.min.js"></script>
 		<script src="js/particlesjs-config.json"></script>
+		<!-- Menú flotante script-->
+		 <script src="js/app.js"></script>
 	</body>
 	</html>

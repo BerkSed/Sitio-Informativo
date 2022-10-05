@@ -38,13 +38,26 @@
 			 
 				<h6>SI PUEDES IMAGINARLO PUEDES PROGRAMARLO<span>&#160;</span></h6>
 			 
-			<a href="conocenos.php" class="cta">CONOCENOS</a>
+			<a href="conocenos.html" class="cta">CONOCENOS</a>
 		</section>
 
 	</header>
-	<a href="suscripcion.php" class="btn-wsp">
-	    <b>+</b>
-	</a>
+	<br>
+	<br>
+	<br><br><br><br><br><br><br><br><br><br><br>
+	 <!-- Menú flotante -->
+    <div class="menu-content">
+        <span class="menu-item" id="menu">
+            <img src="svg/plus.svg" alt="Más" style="width: 40px; height: 40px;">
+        </span>
+        <a href="suscripcion.php"  style="width: 40px; height: 40px;" class="menu-item">
+            <img src="svg/facebook.svg" >
+        </a>
+       
+        <a href="baja.php"  style="width: 40px; height: 40px;" class="menu-item">
+            <img src="svg/youtube.svg" >
+        </a>
+    </div>
 	<section class="knowledge">
 		<div class="knowledge__container container">
 			<div class="knowledge__texts">
@@ -84,5 +97,7 @@
 		</footer>
 		<script src="js/particles.min.js"></script>
 		<script src="js/particlesjs-config.json"></script>
+		 <!-- Menú flotante script-->
+		 <script src="js/app.js"></script>
 	</body>
 	</html>

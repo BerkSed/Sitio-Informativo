@@ -39,9 +39,22 @@
 		</section>
 
 	</header>
-	<a href="suscripcion.php" class="btn-wsp" >
-	    <b>+</b>
-	</a>
+	<br>
+	<br>
+	<br><br><br><br><br><br><br><br><br><br>
+	<!-- Menú flotante -->
+    <div class="menu-content">
+        <span class="menu-item" id="menu">
+            <img src="svg/plus.svg" alt="Más" style="width: 40px; height: 40px;">
+        </span>
+        <a href="suscripcion.php"  style="width: 40px; height: 40px;" class="menu-item">
+            <img src="svg/facebook.svg" >
+        </a>
+       
+        <a href="baja.php"  style="width: 40px; height: 40px;" class="menu-item">
+            <img src="svg/youtube.svg" >
+        </a>
+    </div>
 
 	<div class="container about">
 		<h5 class="subtitle2" data-aos="zoom-in">¿QUIERES SABER MÁS?</h5>
@@ -195,5 +208,7 @@
 		</footer>
 	    <script src="js/particles.min.js"></script>
 		<script src="js/particlesjs-config.json"></script>
+		<!-- Menú flotante script-->
+		 <script src="js/app.js"></script>
 </body>
 </html>
